@@ -1,0 +1,16 @@
+{
+  "image": "andrewk911/vlablandprod",
+  "resources": {
+    "memory_mb": "5000",
+    "cpu_units": ""
+ },
+  "container": {
+    "entryPoint": [
+      "/bin/bash",
+      "-c"
+ ],
+    "command": [
+      "./run.sh"
+ ]
+  }
+}

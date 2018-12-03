@@ -1,0 +1,29 @@
+{
+  "inputs": [
+    {
+      "id": "DataObject_0h3a3ff",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "URL to download input data",
+      "name": "NDVI time series of selected test site - Kiev region, Ukraine",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "Data/prod_data.zip"
+ }
+  ],
+  "outputs": [
+    {
+      "id": "DataObject_0n95v5p",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "Land productivity indicator",
+      "name": "Land productivity indicator",
+      "valueSchema": "url",
+      "target": "results/Kiev/indicator2.4.1_2013_2017.txt"
+ }
+  ]
+}
+
+
+

@@ -1,0 +1,14 @@
+{
+  "scripts": [
+    {
+      "repoPath": "run.sh",
+      "targetPath": "run.sh",
+      "pathType": "FILE"
+ },
+    {
+      "repoPath": "ind_2_4_1.py",
+      "targetPath": "ind_2_4_1.py",
+      "pathType": "FILE"
+ }
+  ]
+}
