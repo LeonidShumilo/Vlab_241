@@ -194,9 +194,9 @@ def index_calculating(first_year,last_year,teritory_name,result_path='',data_pat
     if classification_map=='':
         classification_map=os.path.join(os.path.realpath(''),'Data',teritory_name,'classification_map.tif')
     if result_path=='':
-        result_path=os.path.join(os.path.realpath(''),'results',teritory_name)
-    if not os.path.exists(result_path):
-        os.mkdir(os.path.join(os.path.realpath(''),'results',teritory_name))
+        result_path=os.path.join(os.path.realpath(''))
+    #if not os.path.exists(result_path):
+    #    os.mkdir(os.path.join(os.path.realpath(''),'results',teritory_name))
     if data_path=='':
         data_path=os.path.join(os.path.realpath(''),'Data')
     for year in range(first_year,last_year+1):
