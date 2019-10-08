@@ -192,7 +192,7 @@ def trend_index(result_path,classification_map,years):
     return area*nq,float(pos_trend)/float(area),(area-pos_trend)*nq
 def index_calculating(first_year,last_year,teritory_name,result_path='',data_path='',classification_map=''):
     if classification_map=='':
-        classification_map=os.path.join(os.path.realpath(''),'Data',teritory_name,'classification_map.tif')
+        classification_map=os.path.join(os.path.realpath(''),'classification_map.tif')
     if result_path=='':
         result_path=os.path.join(os.path.realpath(''))
     #if not os.path.exists(result_path):
