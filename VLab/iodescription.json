@@ -5,7 +5,7 @@
       "inputType": "individual",
       "valueType": "value",
       "description": "URL to download input data",
-      "name": "NDVI time series of selected test site - Kiev region, Ukraine",
+      "name": "Time Series of Satellite data with in-situ data for test site - Kiev region, Ukraine",
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "url",
