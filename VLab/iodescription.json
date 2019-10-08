@@ -20,7 +20,7 @@
       "description": "Land productivity indicator",
       "name": "Land productivity indicator",
       "valueSchema": "url",
-      "target": "results/Kiev/indicator2.4.1_2013_2017.txt"
+      "target": "indicator2.4.1_2013_2017.txt"
  }
   ]
 }
